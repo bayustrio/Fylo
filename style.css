@@ -42,9 +42,7 @@ body{
     padding-left: 20px;
 }
 
-.navbar li{
 
-}
 
 .navbar a{
     text-decoration: none;
@@ -395,7 +393,7 @@ footer {
 
 
 /* Responsive mobile */
-@media (max-width:475px) {
+@media (max-width:495px) {
 
     .navbar{
         width:100%;
@@ -523,11 +521,11 @@ footer {
     }
 
     .btm{
-        padding:0 17px;
-        /* margin-right: 50px; */
+        padding:0 13px;
+        /* margin:0 auto; */
         /* align-items:center; */
         /* bottom:1150px; */
-        width:85%;
+        width:90%;
         height:50%;
         text-align: center;
         left:0;
