@@ -236,11 +236,13 @@ section{
 .name{
     padding-top:35px;
     /* align-items: center; */
+    width:100%;
     display:flex;
 }
 
 .name  img{
-    width:15%;
+    width:10%;
+    height:10%;
     border-radius: 50%;
 }
 
@@ -308,23 +310,22 @@ section{
 
 }
 
-.txt input{
+.button input{
     padding:10px 15px;
     border-radius: 20px;
-    margin:0 auto;
+    /* margin:0 auto; */
     /* background-color:hsl(215, 52%, 9%); */
     color:#333;
     text-align: center;
     border:none;
+    outline: none;
     background-color: var(--neutral-color-white);
 
 }
 
-.txt input::placeholder{
-    color: rgb(194, 185, 185);
-}
 
-.txt a{
+
+.button a{
     padding:10px 15px;
     text-decoration: none;
     text-transform: capitalize;
@@ -546,7 +547,7 @@ footer {
         margin:0 auto;
         align-items:center;
         /* bottom:1150px; */
-        width:80%;
+        width:90%;
         height:50%;
         /* bottom:50px; */
         /* height:5100%; */
@@ -556,9 +557,9 @@ footer {
 
     .txt{
         align-items:center;
-        margin:0 auto;
+        /* margin:0 auto; */
         width:100%;
-        padding:35px;
+        /* padding:35px; */
         left:0;
     }
 
@@ -574,20 +575,22 @@ footer {
 
     }
 
-    .txt input{
-        margin-bottom: 25px;
-        margin-right: 0;
-        /* padding:10px 30px; */
-        text-align: center;
+    .button{
+     display: grid;
+    }
+
+    .button input{
+        align-items:flex-end;
+        padding:10px 10px;
         /* padding-top: 20px; */
 
     }
 
-    .txt a{
-        padding:10px 30px;
+    .button a{
+        margin-top: 25px;
+        /* padding:10px 10px; */
         /* margin-right: 45px; */
         
-        align-items: center;
     }
 
     footer {
