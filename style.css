@@ -281,7 +281,8 @@ section{
     color:var(--neutral-color-white);
     width:70%;
     /* left:50px; */
-    height:50%;
+    height:55%;
+    bottom:40px;
     text-align: center;
     }
     
@@ -289,7 +290,6 @@ section{
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
     /* top: 0px; */
     left:420px;
-
     position: absolute;
     border-radius: 10px;
     /* background-color: hsl(217, 28%, 15%); */
@@ -546,10 +546,10 @@ footer {
     
         margin:0 auto;
         align-items:center;
-        /* bottom:1150px; */
+        top:10px;
         width:90%;
         height:50%;
-        /* bottom:50px; */
+        /* bottom:0; */
         /* height:5100%; */
         /* text-align: center; */
         left:0;
@@ -621,27 +621,7 @@ footer {
         justify-self: start;
       }
 
-      .social-icons #fb{
-        padding:15px;
-        border-radius: 50%;
-        border:1px solid var(--neutral-color-white);
-          
-      }
-    
-      .social-icons #twt{
-        padding:15px;
-        border-radius: 50%;
-        border:1px solid var(--neutral-color-white);
-    
-      }
-    
-      .social-icons #ig{
-        border:1px solid var(--neutral-color-white);
-        border-radius: 50%;
-        padding:15px;
-        text-align: center;
-        width:60px;
-      }
+      
     
     }
 
