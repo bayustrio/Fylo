@@ -222,6 +222,7 @@ section{
 
 .quotes{
     background-color:hsl(217, 28%, 15%);
+    border-radius: 5px;
     margin:0 15px;
     display:flex;
     /* align-items: center; */
